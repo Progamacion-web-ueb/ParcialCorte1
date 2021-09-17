@@ -6,10 +6,22 @@
         <h1>Diccionario Ingles De Conceptos</h1>
     </head>
     <body>
-        <label for="">Nombre Del Propietario : </label>
-        <input type="text" id="wordInput" >
-
-        <input type="button" id="fetchbuton" value="Buscar">
+        <div>
+            <label for="">Palabra a buscar: </label>
+            <input type="text" id="wordInput" >
+            <input type="button" class="buttonFetch" id="fetchbuton" value="Buscar">
+        </div>
+        <div id="audioApi">
+            <audio controls>
+                <source id="audioLink" src=""  type="audio/mp3">
+            </audio>
+            
+            <!--Este div es usado para morstrar los audios de la pronuncioacion que es agregada en javascript-->
+        </div>
+        <div id="textApi">
+            <!--Este div es usado para morstrar definiciones, ejemplos y la pronuncioacion que es agregada en javascript-->
+        </div>
+        
 
         <div id="imgdog">
             <img src>
